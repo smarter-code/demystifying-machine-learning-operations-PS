@@ -25,7 +25,6 @@ dependencies:
       # Base AzureML SDK
       - azureml-sdk
       - azureml-interpret
-      - interpret
 
       # Must match AzureML SDK version.
       # https://docs.microsoft.com/en-us/azure/machine-learning/concept-environments
