@@ -152,7 +152,7 @@ def main():
     # Train the model
     model = train_model(data, train_args)
     explainer = TabularExplainer(model, 
-                             data["train"]["X"])  #,features = df0.columns
+                             data["train"]["X"],features = df0.columns)  #
     global_explanation = explainer.explain_global(data["test"]["X"])
     client = ExplanationClient.from_run(run)
     client.upload_model_explanation(global_explanation, comment='MPG Predication Explanation')
