@@ -9,6 +9,9 @@ products:
 description: "Code which demonstrates how to set up and operationalize an MLOps flow leveraging Azure Machine Learning and Azure DevOps."
 ---
 
+## This is a customized version for Automobile Prediction for Pluralsight Course Demystifying Machine Learning Operations (MLOps)
+
+
 # MLOps with Azure ML
 
 CI: [![Build Status](https://aidemos.visualstudio.com/MLOps/_apis/build/status/Model-Train-Register-CI?branchName=master)](https://aidemos.visualstudio.com/MLOps/_build/latest?definitionId=160&branchName=master)
